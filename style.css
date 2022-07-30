@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.child {
+    justify-content: center;
+    display: flex;
+    
+}
+
+
+.child h1::first-letter {
+    font-size: 50px;
+
+}
+
+.child img {
+    width: 170px;
+    height: 170px;
+    margin-right: 20px;
+    border-radius: 100px;
+    border: 7px solid rgb(255, 177, 32);
+}
+
+
+.button {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: #00ff4c;
+    padding: 10px;
+    text-align: center;
+    border-radius: 90px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 25px;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    transition: .2s ease-in;
+    transform: translateY(-5px)
+}
+
+.child h1 {
+    letter-spacing: 1px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    margin-top: 50px;
+    color: rgb(0, 119, 255);
+}
+
+.info h1 {
+    letter-spacing: 2px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    color: black;
+}
+
+hr {
+    width: 80px;
+    color: darkgrey;
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+}
+
+
+
+
+.left-position {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+
+.centerInfo {
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.info img {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 25px;
+    height: 210px;
+    width: 160px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.info p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    width: 450px;
+    font-weight: bold;
+}
+
+
+.learning {
+    
+    text-align: center;
+    margin-top: 100px;
+}
+
+.learning h1 {
+    letter-spacing: 2px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    color: black;
+}
+
+.child2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.learning p {
+    font-size: large;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
+    width: 300px;
+    font-weight: bold;
+
+
+
+}
+.learning p::first-letter {
+    font-size: 200%;
+    color: #8A2BE2;
+}
+
+
+.quotes {
+    
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+.quotes h1 {
+    
+    letter-spacing: 2px;
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    color: black;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.card {
+    width: 300px;
+    height: 250px;
+    background-color: #444;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.card:hover {
+    
+    transition: .2s ease-in;
+    transform: translateY(-5px)
+}
+
+.card h2 {
+    color: white;
+    text-align: right;
+    margin-right: 20px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.card h3{
+    font-size: large;
+    margin-top: 50px;
+    width: 200px;
+    margin-left: 50px;
+    color: white;    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+
+@media screen and (max-width: 1220px) {
+
+    .child2 {
+        display: inline-block;
+        justify-content: center;
+    }
+
+    .cards {
+        display: inline-block;
+        justify-content: center;
+    }
+
+    .card {
+        margin-top: 30px;
+    }
+    .cards {
+        margin-top: 20px;
+
+    }
+}
+
+@media screen and (max-width: 939px) {
+    .child h1 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: xx-large;
+        color: rgb(0, 119, 255);
+    }
+
+    .child img {
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .child h1 {
+        font-size: x-large;
+    }
+}
+
+
+
+
+
